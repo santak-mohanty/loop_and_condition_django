@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        {% if age >= 18 %}
+            <h1>Person is adult</h1>
+        {% else %}
+            <h1>Person is underage</h1>
+        {% endif %}
+
+        <a href="{% url 'loop' %}">Click here to go to loop webpage</a>
+    </center>
+        
+</body>
+</html>
